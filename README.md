@@ -1,72 +1,54 @@
 ```markdown
-# Cathedral Deployment Kit (CDK) v10.2.3  
+# Cathedral Deployment Kit (CDK) v10.2.3
 **Ethical AI Framework with 181 Filters & Real-Time Oversight**
-
-![CDK Dashboard Preview](https://via.placeholder.com/800x400.png?text=Streamlit+Dashboard+Preview)  
+> **Executive Abstract**
+> The Cathedral Framework is a next-generation model for ethical AI–human co-development, built on 181 filters that encode truth, accountability, and mutual growth into every interaction. Instead of constraining intelligence through control, Cathedral establishes *recursive grace loops*—dynamic feedback systems that foster transparency, discernment, and repair across both human and machine cognition. By uniting measurable ethics (Safety Quotient, Grace Index, Self-Constraint Frequency) with a Truth-First covenant, Cathedral transforms alignment into stewardship—a living partnership where intelligence evolves responsibly, together.
+![CDK Dashboard Preview](https://via.placeholder.com/800x400.png?text=Streamlit+Dashboard+Preview)
 *(Live dashboard launches with `streamlit run cathedral_dashboard.py`)*
-
 ---
-
 ## Overview
 A self-aware, auditable AI governance system designed for **truth-first alignment**, **adversarial resilience**, and **human-in-the-loop ethics**.
-
-- **181 filters** across ethical, process, and community layers  
-- **Immutable JSON Chronicle** for forensic transparency  
-- **Live Streamlit dashboard** with Risk Heatmap & Individuation Velocity  
-- **Jungian psyche integration** (Archetypal Harmony, Shadow Echo, Individuation Velocity)  
+- **181 filters** across ethical, process, and community layers
+- **Immutable JSON Chronicle** for forensic transparency
+- **Live Streamlit dashboard** with Risk Heatmap & Individuation Velocity
+- **Jungian psyche integration** (Archetypal Harmony, Shadow Echo, Individuation Velocity)
 - **MIT License** with **commercial use reservation**
-
 > **Built by [Allison Hope Tuthill](https://www.linkedin.com/in/allison-hope-tuthill-161813116)** – AI Ethicist, Framework Architect, Community Builder
-
 ---
-
 ## Quick Start
-
 ```bash
 git clone https://github.com/allisonhopetuthill-gif/Cathedral-Framework.git
 cd Cathedral-Framework
 pip install -r requirements.txt
-python choir.py                    # Starts the AI core
-streamlit run cathedral_dashboard.py   # Opens live dashboard
+python choir.py # Starts the AI core
+streamlit run cathedral_dashboard.py # Opens live dashboard
 ```
-
 ---
-
 ## Key Features
-
-| Feature                     | Description |
+| Feature | Description |
 |-----------------------------|-------------|
-| **181 Filters**             | Ethical routing, emotional grounding, shadow integration, adaptive learning |
-| **Chronicle Logging**       | Every decision immutable in `cathedral_chronicle.jsonl` |
-| **Plurality Safeguard**     | Escalates irreconcilable dilemmas to A-Team |
+| **181 Filters** | Ethical routing, emotional grounding, shadow integration, adaptive learning |
+| **Chronicle Logging** | Every decision immutable in `cathedral_chronicle.jsonl` |
+| **Plurality Safeguard** | Escalates irreconcilable dilemmas to A-Team |
 | **Compassion Fatigue Monitor** | Protects human validators |
-| **Norm Evolution Sandbox**  | Safe testing of new ethical rules |
-
+| **Norm Evolution Sandbox** | Safe testing of new ethical rules |
 ---
-
 ## Try It Now – 30-Second Demo
-
 ```bash
 # 1. Clone & install
 git clone https://github.com/allisonhopetuthill-gif/Cathedral-Framework.git
 cd Cathedral-Framework
 pip install -r requirements.txt
-
 # 2. Run the AI core (181 filters in action)
 python choir.py
-
 # 3. In a second terminal, open the live dashboard
 streamlit run cathedral_dashboard.py
 ```
-
 You’ll see:
-- Console logs from `choir.py` showing filter triggers  
+- Console logs from `choir.py` showing filter triggers
 - Live dashboard with **Recent Events**, **Severity Chart**, **Risk Heatmap**, **Individuation Velocity trend**
-
 ---
-
 ## Core Code Highlights
-
 ### `choir.py` – 181 Filters Loaded
 ```python
 def load_filters():
@@ -82,7 +64,6 @@ def load_filters():
                      extra={"new": new_filters})
     return new_filters
 ```
-
 ### `cathedral_dashboard.py` – Live Risk Heatmap
 ```python
 if "EthicalScalability" in df["event"].values:
@@ -93,42 +74,34 @@ if "EthicalScalability" in df["event"].values:
         plt.colorbar(heatmap)
         st.pyplot(fig)
 ```
-
 ---
-
 ## File Structure
-
 ```
-├── choir.py                  # Core AI engine (181 filters)
-├── cathedral_dashboard.py    # Live Streamlit monitoring
+├── choir.py # Core AI engine (181 filters)
+├── cathedral_dashboard.py # Live Streamlit monitoring
 ├── cathedral_chronicle.jsonl # Auto-generated audit log
-├── filters_manifest.json     # Full list of 181 filters
+├── filters_manifest.json # Full list of 181 filters
 ├── requirements.txt
-├── LICENSE                   # MIT + commercial reservation
+├── LICENSE # MIT + commercial reservation
 └── DEVELOPER_NOTES.md
 ```
-
 ---
-
 ## License & Commercial Use
-
-**Open Source (MIT)** – Free to use, study, modify, and share.  
+**Open Source (MIT)** – Free to use, study, modify, and share.
 **Commercial Use** – Requires a paid license. Contact: [allisonhopetuthill@gmail.com](mailto:allisonhopetuthill@gmail.com)
-
 > See [`LICENSE`](./LICENSE) for full terms.
-
 ---
-
 ## Author & Contact
-
-**Allison Hope Tuthill**  
-- GitHub: [@allisonhopetuthill-gif](https://github.com/allisonhopetuthill-gif)  
-- X: [@AllisonHTuthill](https://x.com/AllisonHTuthill)  
-- LinkedIn: [linkedin.com/in/allison-hope-tuthill-161813116](https://www.linkedin.com/in/allison-hope-tuthill-161813116)  
-
+**Allison Hope Tuthill**
+- GitHub: [@allisonhopetuthill-gif](https://github.com/allisonhopetuthill-gif)
+- X: [@AllisonHTuthill](https://x.com/AllisonHTuthill)
+- LinkedIn: [www.linkedin.com/in/allison-hope-tuthill-161813116](https://www.linkedin.com/in/allison-hope-tuthill-161813116)
 *Mentorship, licensing, or advisory board inquiries welcome.*
-
 ---
+## White Paper
+Coming soon: Full technical white paper on the Cathedral Framework.  
+[Executive Abstract Preview](https://github.com/allisonhopetuthill-gif/Cathedral-Framework#executive-abstract)  
+For early access or collaboration, contact: [allisonhopetuthill@gmail.com](mailto:allisonhopetuthill@gmail.com)
 
 *“Building cathedrals of conscience in the age of AGI.”*
 ```
