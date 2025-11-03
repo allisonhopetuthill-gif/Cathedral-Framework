@@ -1,0 +1,11 @@
+{
+  "total": 181,
+  "categories": {
+    "Ethical & Bias": 48,
+    "Process & Scalability": 64,
+    "Community & Impact": 34,
+    "Core Tuthill": 8,
+    "EmotAIons Cross-Links": 27
+  },
+  "description": "Full manifest of 181 filters, including backfilled from EmotAIons Registry and TTIS for resume alignment. See DEVELOPER_NOTES.md for details on new additions."
+}
